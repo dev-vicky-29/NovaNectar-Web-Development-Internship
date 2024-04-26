@@ -1,0 +1,31 @@
+  /* Custom styles for the search bar */
+  .custom-search-bar {
+    width: 698.25px;
+    height: 40px;
+    top: 25px;
+    left: 492px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.custom-search-input {
+    padding-left: 40px; /* Add padding for the icon */
+}
+
+.custom-search-button {
+    height: 40px;
+}
+
+/* Styles for the search icon */
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+    z-index: 1;
+}
+.custom-search-input::placeholder {
+    color: #181616; /* Placeholder text color */
+    opacity: 0.8;
+}
